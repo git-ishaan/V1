@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "IOT sensor",
+    "slug": "sensor",
+    "version": "1.0.0",
+    "scheme": "rm2",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.ishaan12.sensor",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ishaan12.sensor",
+      "edgeToEdgeEnabled": true,
+      "usesCleartextTraffic": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+      "experiments": { "typedRoutes": false },
+    "newArchEnabled": true,
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "5d65cd19-8356-4c54-b595-c8c4954092f7"
+      }
+    },
+    "owner": "ishaan12"
+  }
+}

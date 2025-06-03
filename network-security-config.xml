@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+  <!-- Default: allow cleartext everywhere -->
+  <base-config cleartextTrafficPermitted="true" />
+  <!-- Explicitly allow your InfluxDB host -->
+  <domain-config cleartextTrafficPermitted="true">
+    <domain includeSubdomains="true">43.204.148.41</domain>
+  </domain-config>
+</network-security-config>
