@@ -11,11 +11,14 @@
       "environment": "development"
     },
 
-    "android-apk": {
-      "android": {
-        "buildType": "apk"
-      },
-      "environment": "development"
-    }
+   "android-apk": {
+  "android": {
+    "buildType": "apk"
+  },
+  "environment": "development",
+  "env": {
+    "EXPO_NO_GCM": "1"
+  }
+}
   }
 }

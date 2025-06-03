@@ -20,6 +20,7 @@
       "package": "com.ishaan12.sensor",
       "edgeToEdgeEnabled": true,
       "usesCleartextTraffic": true,
+       "permissions": ["READ_PHONE_STATE", "WRITE_EXTERNAL_STORAGE"] ,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"

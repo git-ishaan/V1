@@ -15,10 +15,10 @@
  * or left undefined to fall back to the hard-coded defaults.
  */
 const API_BASE =
-  process.env.EXPO_PUBLIC_API_BASE_URL                 // ← fallback
+`https://app.wall-e.in`               // ← fallback
 
 const API_KEY =
-  process.env.EXPO_PUBLIC_API_KEY 
+ `cb364cb9f83373d78c2381a0c6f3ac45f91c960af7a99f5d4cd6d2313227fddd`
 
 /* ------------------------------------------------------------------ */
 /* Main helper                                                         */
