@@ -13,23 +13,19 @@ import {
 } from 'react-native';
 
 // Import types
-import { TimeRange } from '../../types/report';
+import { TimeRange } from '../types/report';
 
 // Import constants
 import {
   TIME_RANGE_OPTIONS,
   AGGREGATION_WINDOW_OPTIONS,
-} from '../../constants/report';
+} from '../constants/report';
 
 // Import hooks
-import { useSensorData, useReport, useReportExport } from '../../hooks/report';
+import { useSensorData, useReport, useReportExport } from '../hooks/report';
 
 // Import components
-import {
-  ReportForm,
-  ReportModal,
-  BottomSheetMenu,
-} from '../../components/report';
+import { ReportForm, ReportModal, BottomSheetMenu } from '../components/report';
 
 /* ------------------------------------------------------------------ */
 /* Component                                                           */
